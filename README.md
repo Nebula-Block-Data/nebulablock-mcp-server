@@ -52,35 +52,26 @@ To set up and run this project, follow these steps:
 
 3.  **Activate the virtual environment:**
     *   **macOS/Linux:**
-        ```bash
-        source .venv/bin/activate
-        ```
-    *   **Windows (Command Prompt):**
-        ```bash
-        .venv\Scripts\activate.bat
-        ```
-    *   **Windows (PowerShell):**
-        ```bash
-        .venv\Scripts\Activate.ps1
-        ```
+```bash
+source .venv/bin/activate
+```
 
 4.  **Install dependencies:**
     This project uses `pyproject.toml` for dependency management. Install `setuptools` and then the project in editable mode.
     ```bash
-    pip install setuptools
-    pip install -e .
+    uv pip install -e .
     ```
     This will install `fastmcp` and any other dependencies specified in `pyproject.toml`.
 
-## Running the Application
+## Running the Application with uv
 
-To run the simple "hello world" application:
+To run the simple application:
 
 ```bash
-python -m src.main
+uv run -m src.main
 ```
 
-You should see the output: `Hello from mcp_project! fastmcp is integrated.`
+You should see output similar to: `[05/29/25 17:32:58] INFO     Starting MCP server 'FastMCP' with transport 'stdio'`
 
 ### Configuring API Key
 
