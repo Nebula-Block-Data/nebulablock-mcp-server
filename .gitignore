@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# Distribution / packaging
+.Python
+build/
+dist/
+wheels/
+*.egg
+
+# Environments
+.env
+.venv
+env/
+venv/
+fastmcp_env/
+
+# Editors
+.vscode/
+.idea/
+
+# Logs and other output
+*.log
+*.tmp
+*.bak
+*.swp
