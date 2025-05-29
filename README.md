@@ -136,19 +136,6 @@ Here's an example of how you might configure an MCP server in your `settings.jso
 *   Replace `~/path/to/nebulablock_mcp` with the actual path to your project directory.
 *   Replace `YOUR_API_KEY` with your actual NebulaBlock API key.
 
-## `fastmcp` Integration
-
-This project demonstrates a minimal integration of `fastmcp`. The `src/main.py` module initializes a basic `fastmcp.mcp.MCP` object, showcasing that the library can be successfully imported and instantiated within the project's structure. This serves as a starting point for more complex simulations or applications using `fastmcp`.
-
-## Code Quality and Style
-
-This project adheres to the following code quality standards:
-
-*   **Type Hinting:** Extensive use of Python's type hints for improved readability and maintainability.
-*   **PEP 8:** Strict adherence to PEP 8 guidelines for code formatting and style.
-*   **Docstrings:** Comprehensive Google-style docstrings for all modules, classes, methods, and functions.
-*   **Comments:** Judicious use of inline comments for complex logic or design decisions.
-
 ## License
 
 This project is licensed under the MIT License. See the `LICENSE` file (if created) for details.
