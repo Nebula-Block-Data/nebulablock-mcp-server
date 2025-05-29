@@ -1,6 +1,6 @@
-# MCP Project
+# NebulaBlock API MCP
 
-A simple Python project demonstrating basic integration with the `fastmcp` library. This project serves as a minimal example to get started with `fastmcp` in a well-structured Python application.
+This project serves as a Model Context Protocol (MCP) server for the NebulaBlock API (`https://api.nebulablock.com`). It demonstrates how to integrate with the `fastmcp` library to expose NebulaBlock API functionalities as tools, enabling seamless interaction within an MCP-compatible environment.
 
 ## Project Structure
 
@@ -40,7 +40,7 @@ To set up and run this project, follow these steps:
 
 1.  **Clone the repository (if applicable):**
     ```bash
-    git clone https://github.com/yourusername/mcp-project.git
+    git clone https://github.com/Nebula-Block-Data/api-mcp
     cd mcp-project
     ```
 
