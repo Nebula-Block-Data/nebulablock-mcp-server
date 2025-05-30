@@ -1,6 +1,6 @@
 # NebulaBlock API MCP
 
-This project serves as a Model Context Protocol (MCP) server for the NebulaBlock API (`https://api.nebulablock.com`). It demonstrates how to integrate with the `fastmcp` library to expose NebulaBlock API functionalities as tools, enabling seamless interaction within an MCP-compatible environment.
+This repository hosts the official NebulaBlock API Model Context Protocol (MCP) server. This server integrates with the `fastmcp` library to expose the full range of NebulaBlock API functionalities as accessible tools, enabling seamless and efficient interaction within any MCP-compatible environment.
 
 ## Project Structure
 
@@ -63,9 +63,9 @@ source .venv/bin/activate
     ```
     This will install `fastmcp` and any other dependencies specified in `pyproject.toml`.
 
-## Running the Application with uv
+## Running the NebulaBlock API MCP Server
 
-To run the simple application:
+To start the NebulaBlock API MCP server:
 
 ```bash
 uv run -m src.main
@@ -101,9 +101,9 @@ pytest
 
 You should see output indicating that the tests passed.
 
-## MCP Server Configuration Example
+## Integrating with an MCP Client
 
-Here's an example of how you might configure an MCP server in your `settings.json` (or similar configuration file) to run this project:
+To utilize the NebulaBlock API MCP server, you need to configure your MCP client (e.g., VS Code with an MCP extension) to connect to this server. Below is an example configuration for a `settings.json` file:
 
 ```json
 {
