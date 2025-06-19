@@ -151,7 +151,7 @@ def reboot_gpu_instance(id: str):
 
 
 @mcp.tool("create_gpu_instance")
-def create_gpu_instance(instance_name: str, product_id: str, image_id: str, ssh_key_id: int):
+def create_gpu_instance(instance_name: str, product_id: str, image_id: str, ssh_key_id: str):
     """
     Create GPU Instances.
 
@@ -181,7 +181,7 @@ def create_gpu_instance(instance_name: str, product_id: str, image_id: str, ssh_
 
 
 @mcp.tool("delete_ssh_key")
-def delete_ssh_key(id: int):
+def delete_ssh_key(id: str):
     """
     Deletes a specified SSH key by including the ID of the SSH key in the endpoint path.
     """
