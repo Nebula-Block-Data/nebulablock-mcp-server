@@ -101,7 +101,7 @@ def list_user_invoices(limit: int = None, offset: int = None):
 @mcp.resource("mcp://api_keys")
 @mcp.tool("list_api_keys")
 def list_api_keys():
-    return _make_api_request("api_keys")
+    return _make_api_request("keys")
 
 
 @mcp.tool("list_ssh_keys")
